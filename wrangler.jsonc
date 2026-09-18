@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "shadowrocket-rules-worker",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-14",
+
+  "kv_namespaces": [
+    {
+      "binding": "RULES_KV",
+      "id": "f8cee6d6f7384db29602c0e2489f6792"
+    }
+  ],
+
+  "triggers": {
+    "crons": ["0 4 * * *"]
+  }
+}

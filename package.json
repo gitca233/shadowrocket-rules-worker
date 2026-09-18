@@ -1,0 +1,13 @@
+{
+  "name": "shadowrocket-rules-worker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shadowrocket 自定义规则管理器，部署到 Cloudflare Workers",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
